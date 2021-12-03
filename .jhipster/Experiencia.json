@@ -1,0 +1,33 @@
+{
+  "fields": [
+    {
+      "fieldName": "titulo",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "minlength", "maxlength"],
+      "fieldValidateRulesMinlength": "5",
+      "fieldValidateRulesMaxlength": "200"
+    },
+    {
+      "fieldName": "descripcion",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "minlength", "maxlength"],
+      "fieldValidateRulesMinlength": "5",
+      "fieldValidateRulesMaxlength": "500"
+    },
+    {
+      "fieldName": "localizacion",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "fecha",
+      "fieldType": "Instant"
+    }
+  ],
+  "relationships": [],
+  "service": "no",
+  "readOnly": false,
+  "pagination": "pagination",
+  "name": "Experiencia",
+  "changelogDate": "20211015110206"
+}
